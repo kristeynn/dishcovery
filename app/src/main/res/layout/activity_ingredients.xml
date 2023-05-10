@@ -36,19 +36,21 @@
         android:id="@+id/repsd"
         android:layout_width="357dp"
         android:layout_height="337dp"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
         android:layout_marginBottom="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintHorizontal_bias="0.386"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title"
-        app:layout_constraintVertical_bias="0.578">
+        app:layout_constraintVertical_bias="0.609">
 
         <TextView
             android:id="@+id/recipee"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
             android:fontFamily="@font/actor"
             android:text="Salt air, and the rust on your door"
             android:textColor="#474343"

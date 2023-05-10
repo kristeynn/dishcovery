@@ -22,7 +22,7 @@ class recipesection : AppCompatActivity() {
                 intent.putExtra("ReciName1", "Details1")
                 startActivity(intent)
             }
-            //French Toast
+            //Smoothie Bowl
             binding.imageView.setImageResource(R.drawable.dishcoveryblk)
             binding.sectionview.setImageResource(R.drawable.bfsection)
             binding.repcipeopt2btn.setImageResource(R.drawable.smoothie)
@@ -31,6 +31,8 @@ class recipesection : AppCompatActivity() {
                 intent.putExtra("ReciName2", "Details2")
                 startActivity(intent)
             }
+
+            //Omelette
             binding.imageView.setImageResource(R.drawable.dishcoveryblk)
             binding.sectionview.setImageResource(R.drawable.bfsection)
             binding.repcipeopt3btn.setImageResource(R.drawable.omelette)
@@ -39,6 +41,8 @@ class recipesection : AppCompatActivity() {
                 intent.putExtra("ReciName3", "Details3")
                 startActivity(intent)
             }
+
+            //French Toast
             binding.imageView.setImageResource(R.drawable.dishcoveryblk)
             binding.sectionview.setImageResource(R.drawable.bfsection)
             binding.repcipeopt4btn.setImageResource(R.drawable.frenchtst)
@@ -48,6 +52,8 @@ class recipesection : AppCompatActivity() {
                 startActivity(intent)
             }
         } else if (buttonName == "lunchbtn") {
+
+            //Pasta Salad
             binding.imageView.setImageResource(R.drawable.dishcoveryblk)
             binding.sectionview.setImageResource(R.drawable.lunchsect)
             // add click listeners for lunch recipes
@@ -59,7 +65,7 @@ class recipesection : AppCompatActivity() {
             }
             binding.imageView.setImageResource(R.drawable.dishcoveryblk)
             binding.sectionview.setImageResource(R.drawable.lunchsect)
-            binding.repcipeopt2btn.setImageResource(R.drawable.chickencaesar)
+            binding.repcipeopt2btn.setImageResource(R.drawable.quesadilla)
             binding.repcipeopt2btn.setOnClickListener {
                 val intent = Intent(this, Ingredients::class.java)
                 intent.putExtra("ReciName6", "Details6")
@@ -75,7 +81,7 @@ class recipesection : AppCompatActivity() {
             }
             binding.imageView.setImageResource(R.drawable.dishcoveryblk)
             binding.sectionview.setImageResource(R.drawable.lunchsect)
-            binding.repcipeopt4btn.setImageResource(R.drawable.quesadilla)
+            binding.repcipeopt4btn.setImageResource(R.drawable.chickencaesar)
             binding.repcipeopt4btn.setOnClickListener {
                 val intent = Intent(this, Ingredients::class.java)
                 intent.putExtra("ReciName8", "Details8")
